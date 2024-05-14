@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panadería Mogente</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!--ERROR DE PAUTA 1.1: Falta etiqueta <main></main> -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Logo Panadería Mogente" width="30" height="30" class="d-inline-block align-top">
+                Panadería Mogente
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#informacion">Información</a>
+                    </li>
+                    <!--ERROR DE PAUTA 1.3.1: Falta atributo "href" en el enlace -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Promoción</a>
+                    </li>
+                    <!--ERROR DE PAUTA 1.3.2: Falta atributo "href" en el enlace -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ofertas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--ERROR DE PAUTA 1.4.1: En las imagenes de la galeria falta el "alt"-->
+    <section id="informacion">
+        <div class="container">
+            <h1>Conoce nuestra empresa</h1>
+            <p>Panadería Mogente es una empresa familiar fundada por Sergio Mogente cuando éste compró la panadería Mogente hace más de 60 años.
+
+                La empresa, fruto del esfuerzo d'en Sergio y su esposa Roser Ramos Camps, ha ido creciendo con el paso del tiempo como resultado de la formación continuada de todo el equipo y el afán de todos para ofrecer la máxima calidad y una gran diversidad de productos.
+                
+                Elaboramos diariamente diferentes especialidades de pan, bollería, pastelería dulce y salada artesanalmente, utilizando fermentos naturales sin ningún tipo de aditivos.
+                
+                Los procesos (el pan se amasa, reposa, forma, fermenta y se cuece cada día a nuestros obradores) y la elección de las mejores materias primas son elementos claves para poder ofrecer un producto de calidad.
+                
+                La empresa es miembro del Gremio de Panaderos de la provincia de Barcelona, del Gremio de Pastelería de Barcelona y de la Cecot. Además como empresa trabaja bajo un sistema integrado de gestión de calidad, prevención de riesgos laborales y compromiso con el medio ambiente.</p>
+        </div>
+    </section>
+    <!--ERROR DE PAUTA 1.4.3: No hay suficiente contraste entre el texto y el fondo -->
+    <section id="galeria" style="background-color: #FFFFFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <img src="img1.jpg" class="img-fluid galeria-img">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="img2.jpg" class="img-fluid galeria-img">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="img3.jpg" class="img-fluid galeria-img">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="img4.jpg" class="img-fluid galeria-img">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ERROR DE PAUTA 1.4.6: Faltan etiquetas <h2> en las secciones -->
+    <section>
+        <div class="container">
+            <h1>Nuestras promociones</h1>
+            <p>¡Esta semana tenemos una oferta especial en nuestras barras de pan! Disfruta del sabor auténtico y nutritivo de nuestro pan recién horneado a un precio irresistible. ¡No te lo pierdas!</p>
+            <p>Nuestra panadería se enorgullece de ofrecer productos de calidad a precios accesibles para que puedas disfrutar de lo mejor sin comprometer tu bolsillo.</p>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <img src="pan1.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="pan2.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="pan3.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-3 mb-3">
+                    <img src="pan4.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1>Nuestras ofertas</h1>
+            <p>¡No te pierdas nuestra oferta especial en pasteles! Disfruta de la irresistible combinación de sabores y la textura exquisita de nuestros pasteles recién horneados. Por tiempo limitado, al comprar 2 pasteles, ¡te llevas uno gratis! Esta es una oportunidad única para endulzar tus momentos especiales o simplemente darte un capricho a ti mismo o a tus seres queridos. ¡Visita nuestra panadería y aprovecha esta dulce oferta antes de que se agote!</p>
+        </div>
+    </section>
+    <!--ERROR DE PAUTA 2.2: El enlace de navegación se puede activar de forma inesperada -->
+    <section>
+        <div class="container">
+            <h1>Contacto</h1>
+            <p>Tienes alguna duda, sugerencia o quieres comprar nuestros productos?</p>
+            <ul class="list-unstyled custom-list row">
+                <li class="col-md-4">
+                    <div class="icono-texto">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="texto">
+                        <h5>Dirección</h5>
+                        <h6>Carrer del Doctor Almera,33</h6>
+                        <h6>08205 Sabadell</h6>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="icono-texto">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="texto">
+                        <h5>Email</h5> 
+                        <h6>pasteleriamogente@gmail.com</h6>
+                    </div>
+                </li>
+                <li class="col-md-4">
+                    <div class="icono-texto">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="texto">
+                        <h5>Teléfono</h5>
+                        <h6>937 361 091</h6>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--ERROR DE PAUTA 2.3: No hay un título de sección antes del mapa -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5972.3445246105275!2d2.0956518116527474!3d41.54386728615459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a494f7a6b86651%3A0xe9a74531a2b7ca1!2sJaume%20Viladoms%2C%20Center%20for%20Professional%20Studies!5e0!3m2!1sgl!2ses!4v1715590021254!5m2!1sgl!2ses" width="1534" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section>
+        <div class="container">
+            <!--ERROR DE PAUTA 3.1: No hay suficiente contraste entre el texto y el fondo -->
+            <h1>Formulario de Contacto</h1>
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary btn-block">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <!--ERROR DE PAUTA 4.1.1: Falta el atributo "lang" en la etiqueta <html> -->
+    <section class="footer">
+        <p>&copy Panadería Mogente - 2024</p>
+    </section>
+</body>
+</html>

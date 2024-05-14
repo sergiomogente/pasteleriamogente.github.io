@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* Estilos para el encabezado */
+header {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 50px 0;
+}
+
+/*Informacion h1*/
+.container h1{
+    text-align: center;
+    font-family: 'Sedan SC', sans-serif;
+}
+.container p{
+    text-align: center;
+    font-family: 'Ubuntu Sans Mono';
+}
+/*galeria*/
+.galeria-img {
+    height: 400px; 
+    object-fit: cover;
+}
+/*promociones*/
+.img-fluid {
+    transition: transform 0.3s; 
+}
+.img-fluid:hover {
+    transform: scale(1.1); 
+}
+.custom-list {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-list li {
+    list-style: none;
+    margin-bottom: 20px; /* Añade más espacio entre los elementos */
+}
+
+.icono-texto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.icono-texto i {
+    font-size: 30px;
+    color: #000000;
+}
+
+.texto {
+    font-size: 16px;
+    align-self: center;
+    text-align: center; /* Alinea el texto al centro */
+}
+
+.texto h5, .texto h6 {
+    margin: 10px 20px; /* Añade más espacio entre los elementos de texto */
+}
+.texto h6{
+    margin-left: 20px;
+}
+.footer p{
+    text-align: center;
+}
